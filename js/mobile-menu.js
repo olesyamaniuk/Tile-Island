@@ -21,6 +21,20 @@ document.addEventListener('DOMContentLoaded', () => {
   );
 });
 
+function toggleAnswer(element) {
+  const answer = element.nextElementSibling;
+  const button = element.querySelector(".toggle-button");
+  
+  if (answer.style.display === "none" || answer.style.display === "") {
+    answer.style.display = "block";
+    button.textContent = "-";
+  } else {
+    answer.style.display = "none";
+    button.textContent = "+";
+  }
+}
+
+
 
 
 
