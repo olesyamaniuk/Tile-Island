@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Merge Wonder Park</title>
-    <link rel="icon" href="image/favicon-500x500 (1).png" />
+    <title>Tile Island</title>
+    <link rel="icon" href="img/favicon-500x500.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,7 +23,12 @@
       href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap"
       rel="stylesheet"
     />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Manrope:wght@200..800&family=Rajdhani:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       type="text/css"
@@ -93,7 +98,7 @@
           <div class="home__container-top">
             <a
               class="home__google-button_link"
-              href="https://play.google.com/store/apps/details?id=com.zymobile.merge.wonder.park.gp"
+              href="https://play.google.com/store/apps/details?id=com.qublix.tilegame"
               target="_blank"
             >
               <img
@@ -112,12 +117,12 @@
         <div class="advantages__container">
           <img
             class="advantages-image"
-            src="image/desc/Secrion-2-About the game.png"
+            src="img/GameDescription/Secrion-2-Game Description.png"
             alt=""
           />
           <img
             class="advantages-image-desk"
-            src="image/desc/Secrion-2-About the game (1).png"
+            src="img/GameDescription/Secrion-2-Game Description (1).png"
             alt=""
           />
         </div>
@@ -129,118 +134,158 @@
         <div class="features__container">
           <img
             class="features-image"
-            src="image/Features/Secrion-3-Features.png"
+            src="img/UniqueFeatures/Secrion-3-Unique Features.png"
             alt=""
           />
           <img
             class="features-image-desk"
-            src="image/Features/Secrion-3-Features (1).png"
+            src="img/UniqueFeatures/Secrion-3-Unique Features (1).png"
             alt=""
           />
         </div>
       </section>
 
       <section class="play" id="play">
-        <img
-          class="play-image"
-          src="image/play/Secrion-4-How to Play (2).png"
-          alt=""
-        />
+        <h2 class="visually-hidden">play</h2>
 
         <div class="play__container">
-          <ul class="play__list">
-            <li class="play__item">
-              <img
-                class="play__image"
-                src="./image/play/Action-01 (1).png"
-                alt=""
-              />
-            </li>
-            <li class="play__item">
-              <img
-                class="play__image"
-                src="./image/play/Action-02.png"
-                alt=""
-              />
-            </li>
-            <li class="play__item">
-              <img
-                class="play__image"
-                src="./image/play/Action-03.png"
-                alt=""
-              />
-            </li>
-            <li class="play__item">
-              <img
-                class="play__image"
-                src="./image/play/Action-04.png"
-                alt=""
-              />
-            </li>
-            <li class="play__item">
-              <img
-                class="play__image"
-                src="./image/play/Action-05.png"
-                alt=""
-              />
-            </li>
-            <li class="play__item">
-              <img
-                class="play__image"
-                src="./image/play/Action-06.png"
-                alt=""
-              />
-            </li>
-          </ul>
+          <img
+            class="play-image"
+            src="img/HowtoPlay/Secrion-4-How to Play.png"
+            alt=""
+          />
+          <img
+            class="play-image-desk"
+            src="img/HowtoPlay/Secrion-4-How to Play (1).png"
+            alt=""
+          />
         </div>
-        <img
-          class="play-image-desk"
-          src="image/play/Secrion-4-How to Play.png"
-          alt=""
-        />
       </section>
     </main>
-    <section class="features" id="faq">
+    <section class="faq" id="faq">
       <h2 class="visually-hidden">faq</h2>
 
-      <div class="faq-item">
-        <div class="faq-question" onclick="toggleAnswer(this)">
-          <span>Is Farm Legend Life free to play?</span>
-          <button class="toggle-button">+</button>
-        </div>
-        <div class="faq-answer">
-          Yes, the game is free to download and play, with optional in-app
-          purchases for added features.
+      <div class="faq-container">
+        <img class="faq-title" src="/img/faq/Header.png" alt="faq" />
+        <div class="faq-list">
+          <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(this)">
+              <span>Can I play Tile Island offline?</span>
+              <button class="toggle-button">+</button>
+            </div>
+            <div class="faq-answer">
+              Yes, Tile Island can be played offline, though some features may
+              require an internet connection.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(this)">
+              <span>Is Tile Island suitable for all ages?</span>
+              <button class="toggle-button">+</button>
+            </div>
+            <div class="faq-answer">
+              Yes, it’s suitable for a wide range of players, though please
+              check the content rating for specific details.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(this)">
+              <span>Are there in-app purchases in Tile Island?</span>
+              <button class="toggle-button">+</button>
+            </div>
+            <div class="faq-answer">
+              Yes, optional in-app purchases are available in the game.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(this)">
+              <span>How do I unlock more levels?</span>
+              <button class="toggle-button">+</button>
+            </div>
+            <div class="faq-answer">
+              Complete each level and special challenges to unlock additional
+              content.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(this)">
+              <span>Can I play with friends?</span>
+              <button class="toggle-button">+</button>
+            </div>
+            <div class="faq-answer">
+              Look for any multiplayer or leaderboard features that allow
+              friendly competition.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(this)">
+              <span>What if I’m stuck on a level?</span>
+              <button class="toggle-button">+</button>
+            </div>
+            <div class="faq-answer">
+              Use power-ups or explore tips and strategies online to get through
+              tougher levels.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(this)">
+              <span>How often is new content added?</span>
+              <button class="toggle-button">+</button>
+            </div>
+            <div class="faq-answer">
+              New levels, events, and features are added regularly to keep the
+              experience fresh.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(this)">
+              <span>Where can I get support?</span>
+              <button class="toggle-button">+</button>
+            </div>
+            <div class="faq-answer">
+              For any issues, refer to the support information available on the
+              Google Play Store or within the game’s settings.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(this)">
+              <span>Is Tile Island suitable for all ages?</span>
+              <button class="toggle-button">+</button>
+            </div>
+            <div class="faq-answer">
+              Yes, it’s suitable for a wide range of players, though please
+              check the content rating for specific details.
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
     <section class="gallery" id="gallery">
-      <img
-        class="gallery-title"
-        src="./image/gallery/Secrion-6-Gallery.png"
-        alt=""
-      />
-
+      <img class="faq-title" src="/img/gallery/Header (2).png" alt="faq" />
       <div class="gallery__container">
         <ul class="gallery__list">
           <li class="gallery__item">
-            <img class="gallery__image" src="./image/gallery/img1.png" alt="" />
+            <img class="gallery__image" src="./img/gallery/img1.png" alt="" />
           </li>
           <li class="gallery__item">
-            <img class="gallery__image" src="./image/gallery/img2.png" alt="" />
+            <img class="gallery__image" src="./img/gallery/img2.png" alt="" />
           </li>
           <li class="gallery__item">
-            <img class="gallery__image" src="./image/gallery/img3.png" alt="" />
+            <img class="gallery__image" src="./img/gallery/img3.png" alt="" />
           </li>
           <li class="gallery__item">
-            <img class="gallery__image" src="./image/gallery/img4.png" alt="" />
+            <img class="gallery__image" src="./img/gallery/img4.png" alt="" />
           </li>
           <li class="gallery__item">
-            <img class="gallery__image" src="./image/gallery/img5.png" alt="" />
+            <img class="gallery__image" src="./img/gallery/img5.png" alt="" />
           </li>
           <li class="gallery__item">
-            <img class="gallery__image" src="./image/gallery/img6.png" alt="" />
+            <img class="gallery__image" src="./img/gallery/img6.png" alt="" />
+          </li>
+          <li class="gallery__item">
+            <img class="gallery__image" src="./img/gallery/img7.png" alt="" />
           </li>
         </ul>
       </div>
@@ -249,7 +294,7 @@
     <footer class="footer">
       <div class="footer-container">
         <p class="footer-copyright">
-          All rights reserved proquestadventure.com | 2024
+          All rights reserved questbeststart.com | 2024
         </p>
         <div class="footer-wrapper">
           <a class="footer-text" href="policy.html">Privacy Policy</a>
